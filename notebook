@@ -1,0 +1,252 @@
+CSS3 introduced many properties and values to enhance web design and functionality. Below is a comprehensive list of CSS3 properties, along with their values and descriptions:
+
+### 1. **Animation**
+- **animation**: Shorthand property for setting all animation properties.
+- **animation-name**: Name of the animation.
+- **animation-duration**: Duration of the animation.
+- **animation-timing-function**: Timing function (e.g., `linear`, `ease`, `ease-in`, `ease-out`, `ease-in-out`, `cubic-bezier()`).
+- **animation-delay**: Delay before the animation starts.
+- **animation-iteration-count**: Number of times the animation will run (e.g., `infinite`).
+- **animation-direction**: Direction of the animation (e.g., `normal`, `reverse`, `alternate`, `alternate-reverse`).
+- **animation-fill-mode**: How the animation applies styles to the element before and after execution (e.g., `none`, `forwards`, `backwards`, `both`).
+- **animation-play-state**: Pauses or plays the animation (e.g., `running`, `paused`).
+
+### 2. **Backgrounds**
+- **background**: Shorthand property for setting all background properties.
+- **background-color**: Background color.
+- **background-image**: Background image.
+- **background-position**: Position of the background image.
+- **background-size**: Size of the background image (e.g., `auto`, `cover`, `contain`, `px`, `em`).
+- **background-repeat**: How the background image is repeated (e.g., `repeat`, `repeat-x`, `repeat-y`, `no-repeat`).
+- **background-attachment**: Whether the background image is fixed or scrolls with the rest of the page (e.g., `scroll`, `fixed`, `local`).
+- **background-clip**: Defines the painting area of the background (e.g., `border-box`, `padding-box`, `content-box`).
+- **background-origin**: Specifies the background positioning area (e.g., `border-box`, `padding-box`, `content-box`).
+- **background-blend-mode**: Blending mode of background layers (e.g., `normal`, `multiply`, `screen`, `overlay`).
+
+### 3. **Borders**
+- **border**: Shorthand for setting border-width, border-style, and border-color.
+- **border-radius**: Rounds the corners of an element.
+- **border-width**: Width of the border.
+- **border-style**: Style of the border (e.g., `none`, `solid`, `dotted`, `dashed`).
+- **border-color**: Color of the border.
+- **border-image**: Border image source, slice, width, outset, and repeat.
+
+### 4. **Box Model**
+- **box-shadow**: Adds shadow to elements (e.g., `none`, `offset-x offset-y blur-radius spread-radius color`, `inset`).
+- **box-sizing**: Defines how the width and height of an element are calculated (e.g., `content-box`, `border-box`).
+
+### 5. **Colors**
+- **color**: Text color of an element.
+- **opacity**: Transparency level (value between `0.0` and `1.0`).
+
+### 6. **Columns**
+- **column-count**: Number of columns an element should be divided into.
+- **column-gap**: Gap between columns.
+- **column-rule**: Shorthand for setting column-rule-width, column-rule-style, and column-rule-color.
+- **column-span**: Specifies how many columns an element should span (e.g., `all`, `none`).
+- **column-width**: Width of the columns.
+
+### 7. **Content**
+- **content**: Inserts content before or after an element’s content.
+- **counter-increment**: Increases or decreases the value of a CSS counter.
+- **counter-reset**: Resets a CSS counter to a specific value.
+
+### 8. **Flexbox**
+- **display**: Defines a flex container (e.g., `flex`, `inline-flex`).
+- **flex-direction**: Direction of the flex items (e.g., `row`, `row-reverse`, `column`, `column-reverse`).
+- **flex-wrap**: Defines whether the flex items should wrap (e.g., `nowrap`, `wrap`, `wrap-reverse`).
+- **justify-content**: Aligns flex items along the main axis (e.g., `flex-start`, `flex-end`, `center`, `space-between`, `space-around`, `space-evenly`).
+- **align-items**: Aligns flex items along the cross axis (e.g., `flex-start`, `flex-end`, `center`, `baseline`, `stretch`).
+- **align-content**: Aligns a flex container’s lines within when there is extra space in the cross axis (e.g., `flex-start`, `flex-end`, `center`, `space-between`, `space-around`, `stretch`).
+- **flex-grow**: Defines the ability for a flex item to grow if necessary.
+- **flex-shrink**: Defines the ability for a flex item to shrink if necessary.
+- **flex-basis**: Defines the initial main size of a flex item.
+- **order**: Defines the order of flex items.
+
+### 9. **Fonts**
+- **font**: Shorthand for setting font-style, font-variant, font-weight, font-size, line-height, and font-family.
+- **font-family**: Specifies the font family.
+- **font-size**: Size of the font (e.g., `px`, `em`, `rem`, `%`, `vw`, `vh`).
+- **font-weight**: Weight of the font (e.g., `normal`, `bold`, `bolder`, `lighter`, `100` to `900`).
+- **font-style**: Style of the font (e.g., `normal`, `italic`, `oblique`).
+- **font-variant**: Variant of the font (e.g., `normal`, `small-caps`).
+- **font-stretch**: Condensed or expanded font width (e.g., `normal`, `condensed`, `expanded`).
+- **line-height**: Height of a line of text.
+
+### 10. **Gradients**
+- **linear-gradient()**: Creates a linear gradient background.
+- **radial-gradient()**: Creates a radial gradient background.
+- **conic-gradient()**: Creates a conic gradient background.
+
+### 11. **Grid Layout**
+- **display**: Defines a grid container (e.g., `grid`, `inline-grid`).
+- **grid-template-columns**: Defines the columns of the grid.
+- **grid-template-rows**: Defines the rows of the grid.
+- **grid-template-areas**: Defines areas within the grid.
+- **grid-template**: Shorthand for grid-template-rows, grid-template-columns, and grid-template-areas.
+- **grid-auto-columns**: Size of columns not explicitly defined.
+- **grid-auto-rows**: Size of rows not explicitly defined.
+- **grid-auto-flow**: How auto-placed items are inserted (e.g., `row`, `column`, `row dense`, `column dense`).
+- **gap**: Shorthand for `row-gap` and `column-gap`.
+- **row-gap**: Gap between rows.
+- **column-gap**: Gap between columns.
+- **grid-column-start**: Starting position of a grid item.
+- **grid-column-end**: Ending position of a grid item.
+- **grid-row-start**: Starting position of a grid item.
+- **grid-row-end**: Ending position of a grid item.
+- **grid-column**: Shorthand for grid-column-start and grid-column-end.
+- **grid-row**: Shorthand for grid-row-start and grid-row-end.
+- **grid-area**: Shorthand for grid-row-start, grid-column-start, grid-row-end, and grid-column-end.
+- **place-items**: Aligns items in the grid (shorthand for align-items and justify-items).
+- **place-content**: Aligns content in the grid (shorthand for align-content and justify-content).
+- **place-self**: Aligns individual grid items.
+
+### 12. **Text**
+- **text-align**: Aligns the text within an element (e.g., `left`, `right`, `center`, `justify`).
+- **text-decoration**: Adds decoration to text (e.g., `none`, `underline`, `overline`, `line-through`, `blink`).
+- **text-transform**: Controls text case (e.g., `none`, `capitalize`, `uppercase`, `lowercase`).
+- **letter-spacing**: Space between characters in a text.
+- **word-spacing**: Space between words in a text.
+- **line-break**: Controls line breaking within text (e.g., `auto`, `loose`, `normal`, `strict`, `anywhere`).
+- **word-break**: Controls word breaking within text (e.g., `normal`, `break-all`, `keep-all`, `break-word`).
+- **white-space**: How white space inside an element is handled (e.g., `normal`, `nowrap`, `pre`, `pre-wrap`, `pre-line`).
+
+### 13. **Transforms**
+- **transform**: Applies a 2D or 3D transformation (e.g., `translate()`, `rotate()`, `scale()`, `skew()`, `matrix()`, `perspective()`).
+- **transform-origin**: Defines the origin for the transformation.
+- **transform
+
+-style**: Specifies how nested elements are rendered in 3D space (e.g., `flat`, `preserve-3d`).
+
+### 14. **Transitions**
+- **transition**: Shorthand for setting the four transition properties.
+- **transition-property**: Specifies the CSS property to apply the transition to.
+- **transition-duration**: Duration of the transition.
+- **transition-timing-function**: Timing function of the transition (e.g., `linear`, `ease`, `ease-in`, `ease-out`, `ease-in-out`).
+- **transition-delay**: Delay before the transition starts.
+
+### 15. **Miscellaneous**
+- **cursor**: Specifies the type of cursor (e.g., `auto`, `default`, `pointer`, `text`, `wait`, `help`, `not-allowed`, `crosshair`).
+- **filter**: Applies graphical effects like blur or color shift (e.g., `blur()`, `brightness()`, `contrast()`, `drop-shadow()`, `grayscale()`, `hue-rotate()`, `invert()`, `opacity()`, `saturate()`, `sepia()`).
+- **clip-path**: Creates a clipping region (e.g., `inset()`, `circle()`, `ellipse()`, `polygon()`).
+- **object-fit**: Defines how the content of a replaced element (like an image or video) should be resized to fit its container (e.g., `fill`, `contain`, `cover`, `none`, `scale-down`).
+- **object-position**: Specifies the alignment of the replaced element inside its container.
+- **visibility**: Controls the visibility of an element (e.g., `visible`, `hidden`, `collapse`).
+- **z-index**: Sets the stack order of an element.
+
+This list covers a broad spectrum of the CSS3 properties and their values, enabling you to create complex, responsive, and visually appealing web designs. If you need more specific examples or explanations of any property, feel free to ask!
+
+Certainly! Below is a more extensive list of CSS properties, including some additional advanced properties and their possible values, along with explanations of how they are used.
+
+### 16. **Aligning and Positioning**
+- **align-content**: Aligns the flex container's lines within when there is extra space in the cross-axis (e.g., `flex-start`, `flex-end`, `center`, `space-between`, `space-around`, `stretch`).
+- **align-items**: Aligns flex items along the cross-axis (e.g., `flex-start`, `flex-end`, `center`, `baseline`, `stretch`).
+- **align-self**: Aligns a flex item inside the flex container along the cross-axis (e.g., `auto`, `flex-start`, `flex-end`, `center`, `baseline`, `stretch`).
+- **position**: Specifies the positioning method used for an element (e.g., `static`, `relative`, `absolute`, `fixed`, `sticky`).
+- **top, right, bottom, left**: Offsets the element relative to its nearest positioned ancestor (e.g., `px`, `em`, `%`, `auto`).
+- **float**: Specifies how an element should float (e.g., `left`, `right`, `none`).
+- **clear**: Specifies what elements can float beside the cleared element (e.g., `none`, `left`, `right`, `both`).
+- **vertical-align**: Aligns elements vertically relative to their parent element (e.g., `baseline`, `sub`, `super`, `top`, `text-top`, `middle`, `bottom`, `text-bottom`).
+
+### 17. **Pseudo-Classes and Pseudo-Elements**
+- **:hover**: Applies styles when the user hovers over an element.
+- **:focus**: Applies styles when the element is focused (typically used with form elements).
+- **:active**: Applies styles when the element is being clicked.
+- **:nth-child(n)**: Selects elements based on their order among siblings (e.g., `nth-child(2n)`, `nth-child(odd)`, `nth-child(even)`).
+- **:nth-of-type(n)**: Selects elements based on their order among siblings of the same type.
+- **:first-child**: Selects the first child element.
+- **:last-child**: Selects the last child element.
+- **::before**: Inserts content before an element's content.
+- **::after**: Inserts content after an element's content.
+- **::placeholder**: Styles the placeholder text of an input field.
+
+### 18. **Tables**
+- **border-collapse**: Controls the borders of table elements (e.g., `collapse`, `separate`).
+- **border-spacing**: Sets the distance between the borders of adjacent cells in a table (e.g., `px`, `em`).
+- **caption-side**: Specifies the position of the table caption (e.g., `top`, `bottom`).
+- **table-layout**: Defines the algorithm used to lay out table cells, rows, and columns (e.g., `auto`, `fixed`).
+- **empty-cells**: Controls the display of empty cells in a table (e.g., `show`, `hide`).
+
+### 19. **List and Counter Styles**
+- **list-style**: Shorthand for setting list-style-type, list-style-position, and list-style-image.
+- **list-style-type**: Specifies the type of marker for list items (e.g., `disc`, `circle`, `square`, `decimal`, `lower-roman`, `upper-roman`, `none`).
+- **list-style-position**: Specifies the position of the list-item marker (e.g., `inside`, `outside`).
+- **list-style-image**: Specifies an image as the list-item marker.
+- **counter-reset**: Resets a CSS counter to a specific value.
+- **counter-increment**: Increases or decreases the value of a CSS counter.
+
+### 20. **Overflow and Clipping**
+- **overflow**: Specifies how to handle content that overflows the element's box (e.g., `visible`, `hidden`, `scroll`, `auto`).
+- **overflow-x**: Controls the horizontal overflow (e.g., `visible`, `hidden`, `scroll`, `auto`).
+- **overflow-y**: Controls the vertical overflow (e.g., `visible`, `hidden`, `scroll`, `auto`).
+- **text-overflow**: Specifies how overflowed content that is not displayed should be signaled to the user (e.g., `clip`, `ellipsis`).
+- **clip**: Defines the visible portion of an element (e.g., `rect(top, right, bottom, left)`).
+
+### 21. **Sizing**
+- **width**: Sets the width of an element (e.g., `px`, `em`, `%`, `auto`, `vw`, `vh`).
+- **height**: Sets the height of an element (e.g., `px`, `em`, `%`, `auto`, `vh`).
+- **min-width**: Sets the minimum width of an element.
+- **max-width**: Sets the maximum width of an element.
+- **min-height**: Sets the minimum height of an element.
+- **max-height**: Sets the maximum height of an element.
+
+### 22. **Filters and Effects**
+- **filter**: Applies graphical effects like blur or color shift (e.g., `blur()`, `brightness()`, `contrast()`, `drop-shadow()`, `grayscale()`, `hue-rotate()`, `invert()`, `opacity()`, `saturate()`, `sepia()`).
+- **backdrop-filter**: Applies graphical effects to the area behind an element (e.g., `blur()`, `brightness()`, `contrast()`).
+- **mix-blend-mode**: Defines how an element's content should blend with the content of its parent and the element's background (e.g., `normal`, `multiply`, `screen`, `overlay`, `darken`, `lighten`, `color-dodge`, `color-burn`, `difference`, `exclusion`, `hue`, `saturation`, `color`, `luminosity`).
+
+### 23. **Media Queries**
+- **@media**: Defines different style rules for different media types/devices (e.g., `screen`, `print`, `all`) and conditions (e.g., `max-width`, `min-width`, `orientation`, `aspect-ratio`, `resolution`).
+
+### 24. **Custom Properties (CSS Variables)**
+- **--variable-name**: Defines a custom property (CSS variable).
+- **var(--variable-name)**: Retrieves the value of a custom property.
+
+### 25. **Transitions and Animations**
+- **transition**: Shorthand for setting the four transition properties (e.g., `transition-property`, `transition-duration`, `transition-timing-function`, `transition-delay`).
+- **transition-property**: Specifies the CSS property to which the transition is applied.
+- **transition-duration**: Defines the duration of the transition.
+- **transition-timing-function**: Defines the speed curve of the transition (e.g., `ease`, `ease-in`, `ease-out`, `linear`).
+- **transition-delay**: Specifies when the transition will start.
+
+### 26. **Responsive Design**
+- **@viewport**: Sets the viewport properties for responsive design.
+- **vw**: Relative to 1% of the width of the viewport.
+- **vh**: Relative to 1% of the height of the viewport.
+- **vmin**: Relative to 1% of the viewport's smaller dimension.
+- **vmax**: Relative to 1% of the viewport's larger dimension.
+
+### 27. **Object Fitting and Positioning**
+- **object-fit**: Defines how the content of a replaced element (like an image or video) should be resized to fit its container (e.g., `fill`, `contain`, `cover`, `none`, `scale-down`).
+- **object-position**: Specifies the alignment of the replaced element inside its container.
+
+### 28. **Visibility and Display**
+- **display**: Specifies the display behavior of an element (e.g., `block`, `inline`, `inline-block`, `flex`, `grid`, `none`).
+- **visibility**: Specifies whether an element is visible or not (e.g., `visible`, `hidden`, `collapse`).
+- **z-index**: Specifies the stack order of an element (e.g., `auto`, `number`).
+
+### 29. **Flexbox Layout**
+- **flex**: Shorthand property for the `flex-grow`, `flex-shrink`, and `flex-basis` properties.
+- **flex-grow**: Specifies how much a flex item will grow relative to the rest of the flex items.
+- **flex-shrink**: Specifies how much a flex item will shrink relative to the rest of the flex items.
+- **flex-basis**: Specifies the initial main size of a flex item.
+
+### 30. **Grid Layout**
+- **grid**: Shorthand property for setting grid-template-rows, grid-template-columns, grid-template-areas, grid-auto-rows, grid-auto-columns, and grid-auto-flow.
+- **grid-template**: Shorthand for grid-template-rows, grid-template-columns, and grid-template-areas.
+- **grid-template-rows**: Specifies the row sizes in a grid layout.
+- **grid-template-columns**: Specifies the column sizes in a grid layout.
+- **grid-template-areas**: Specifies areas within the grid layout.
+- **grid-auto-rows**: Specifies the size of implicitly created grid
+
+ rows.
+- **grid-auto-columns**: Specifies the size of implicitly created grid columns.
+- **grid-auto-flow**: Controls how auto-placed items are inserted in the grid (e.g., `row`, `column`, `dense`).
+- **grid-area**: Shorthand for grid-row-start, grid-column-start, grid-row-end, and grid-column-end.
+- **justify-items**: Aligns items along the inline (row) axis (e.g., `start`, `end`, `center`, `stretch`).
+- **align-items**: Aligns items along the block (column) axis (e.g., `start`, `end`, `center`, `stretch`).
+- **place-items**: Shorthand for setting both align-items and justify-items.
+- **justify-self**: Aligns an individual item inside a grid container along the row axis (e.g., `start`, `end`, `center`, `stretch`).
+- **align-self**: Aligns an individual item inside a grid container along the column axis (e.g., `start`, `end`, `center`, `stretch`).
+
+This list expands on the basics and includes more advanced properties that are essential for modern web design. Each property has specific use cases, and together, they offer powerful tools for creating responsive, accessible, and aesthetically pleasing web pages.
